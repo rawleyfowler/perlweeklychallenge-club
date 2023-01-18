@@ -1,45 +1,11 @@
 {
+   "chart" : {
+      "type" : "column"
+   },
    "plotOptions" : {
       "column" : {
          "stacking" : "percent"
       }
-   },
-   "title" : {
-      "text" : "The Weekly Challenge [2019 - 2022]"
-   },
-   "xAxis" : {
-      "categories" : [
-         "John Barrett",
-         "Jonas Berlin",
-         "Jorg Sommrey",
-         "Jose Luis",
-         "Juan Caballero",
-         "Julien Fiegehenn",
-         "Julio de Castro",
-         "Kai Burgdorf",
-         "Kang-min Liu",
-         "Kaushik Tunuguntla",
-         "Kevin Colyer",
-         "Khalid",
-         "Kian-Meng Ang",
-         "Kiran Kumar",
-         "Kivanc Yazan",
-         "Kjetil Skotheim",
-         "Konstantinos Giannakakis",
-         "Kueppo Wesley",
-         "Lakpa Tashi Bhutia",
-         "Lance Wicks",
-         "Lars Balker",
-         "Lars Thegler",
-         "Laurent Rosenfeld",
-         "Leo Manfredi",
-         "Leoltron",
-         "Lubos Kolouch",
-         "Luca Ferrari",
-         "Lucas Ransan",
-         "Luis F. Uceta",
-         "Luiz Felipe"
-      ]
    },
    "yAxis" : {
       "min" : 0,
@@ -47,12 +13,22 @@
          "text" : ""
       }
    },
+   "subtitle" : {
+      "text" : "[Champions: 30] Last updated at 2023-01-16 05:55:45 GMT"
+   },
+   "tooltip" : {
+      "shared" : 1,
+      "pointFormat" : "<span style=\"color:{series.color}\">{series.name}</span>: <b>{point.y}</b><br/>"
+   },
+   "title" : {
+      "text" : "The Weekly Challenge [2019 - 2022]"
+   },
    "series" : [
       {
          "data" : [
             7,
             0,
-            261,
+            263,
             8,
             2,
             23,
@@ -72,7 +48,7 @@
             21,
             15,
             22,
-            364,
+            366,
             10,
             2,
             209,
@@ -107,11 +83,11 @@
             0,
             4,
             0,
-            372,
+            374,
             0,
             0,
             0,
-            260,
+            262,
             14,
             4,
             0
@@ -119,6 +95,7 @@
          "name" : "Raku"
       },
       {
+         "name" : "Blog",
          "data" : [
             0,
             0,
@@ -142,26 +119,49 @@
             16,
             0,
             0,
-            259,
+            260,
             0,
             0,
             3,
-            426,
+            432,
             0,
             0,
             0
-         ],
-         "name" : "Blog"
+         ]
       }
    ],
-   "subtitle" : {
-      "text" : "[Champions: 30] Last updated at 2023-01-09 04:33:43 GMT"
-   },
-   "chart" : {
-      "type" : "column"
-   },
-   "tooltip" : {
-      "shared" : 1,
-      "pointFormat" : "<span style=\"color:{series.color}\">{series.name}</span>: <b>{point.y}</b><br/>"
+   "xAxis" : {
+      "categories" : [
+         "John Barrett",
+         "Jonas Berlin",
+         "Jorg Sommrey",
+         "Jose Luis",
+         "Juan Caballero",
+         "Julien Fiegehenn",
+         "Julio de Castro",
+         "Kai Burgdorf",
+         "Kang-min Liu",
+         "Kaushik Tunuguntla",
+         "Kevin Colyer",
+         "Khalid",
+         "Kian-Meng Ang",
+         "Kiran Kumar",
+         "Kivanc Yazan",
+         "Kjetil Skotheim",
+         "Konstantinos Giannakakis",
+         "Kueppo Wesley",
+         "Lakpa Tashi Bhutia",
+         "Lance Wicks",
+         "Lars Balker",
+         "Lars Thegler",
+         "Laurent Rosenfeld",
+         "Leo Manfredi",
+         "Leoltron",
+         "Lubos Kolouch",
+         "Luca Ferrari",
+         "Lucas Ransan",
+         "Luis F. Uceta",
+         "Luiz Felipe"
+      ]
    }
 }

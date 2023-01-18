@@ -33,6 +33,9 @@
          "Niels van Dijke"
       ]
    },
+   "title" : {
+      "text" : "The Weekly Challenge [2019 - 2022]"
+   },
    "series" : [
       {
          "data" : [
@@ -65,16 +68,15 @@
             7,
             8,
             1,
-            219
+            221
          ],
          "name" : "Perl"
       },
       {
-         "name" : "Raku",
          "data" : [
             1,
             0,
-            276,
+            278,
             1,
             49,
             91,
@@ -102,10 +104,10 @@
             8,
             0,
             0
-         ]
+         ],
+         "name" : "Raku"
       },
       {
-         "name" : "Blog",
          "data" : [
             0,
             0,
@@ -137,29 +139,27 @@
             0,
             0,
             0
-         ]
+         ],
+         "name" : "Blog"
       }
    ],
+   "plotOptions" : {
+      "column" : {
+         "stacking" : "percent"
+      }
+   },
+   "tooltip" : {
+      "shared" : 1,
+      "pointFormat" : "<span style=\"color:{series.color}\">{series.name}</span>: <b>{point.y}</b><br/>"
+   },
    "yAxis" : {
       "min" : 0,
       "title" : {
          "text" : ""
       }
    },
-   "plotOptions" : {
-      "column" : {
-         "stacking" : "percent"
-      }
-   },
-   "title" : {
-      "text" : "The Weekly Challenge [2019 - 2022]"
-   },
-   "tooltip" : {
-      "pointFormat" : "<span style=\"color:{series.color}\">{series.name}</span>: <b>{point.y}</b><br/>",
-      "shared" : 1
-   },
    "subtitle" : {
-      "text" : "[Champions: 30] Last updated at 2023-01-09 04:33:43 GMT"
+      "text" : "[Champions: 30] Last updated at 2023-01-16 05:55:45 GMT"
    },
    "chart" : {
       "type" : "column"

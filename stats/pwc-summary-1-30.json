@@ -1,22 +1,4 @@
 {
-   "subtitle" : {
-      "text" : "[Champions: 30] Last updated at 2023-01-09 04:33:43 GMT"
-   },
-   "chart" : {
-      "type" : "column"
-   },
-   "tooltip" : {
-      "shared" : 1,
-      "pointFormat" : "<span style=\"color:{series.color}\">{series.name}</span>: <b>{point.y}</b><br/>"
-   },
-   "plotOptions" : {
-      "column" : {
-         "stacking" : "percent"
-      }
-   },
-   "title" : {
-      "text" : "The Weekly Challenge [2019 - 2022]"
-   },
    "xAxis" : {
       "categories" : [
          "3ter",
@@ -51,12 +33,6 @@
          "Belmark Caday"
       ]
    },
-   "yAxis" : {
-      "title" : {
-         "text" : ""
-      },
-      "min" : 0
-   },
    "series" : [
       {
          "data" : [
@@ -66,14 +42,14 @@
             0,
             169,
             3,
-            299,
+            301,
             0,
             3,
             0,
             2,
             27,
             93,
-            45,
+            47,
             44,
             13,
             6,
@@ -82,8 +58,8 @@
             12,
             0,
             150,
-            5,
-            326,
+            7,
+            328,
             0,
             6,
             21,
@@ -109,7 +85,7 @@
             0,
             0,
             4,
-            25,
+            27,
             9,
             21,
             0,
@@ -117,9 +93,9 @@
             0,
             0,
             2,
-            396,
+            398,
             0,
-            287,
+            289,
             0,
             0,
             3,
@@ -129,6 +105,7 @@
          ]
       },
       {
+         "name" : "Blog",
          "data" : [
             0,
             0,
@@ -136,7 +113,7 @@
             28,
             118,
             0,
-            211,
+            213,
             0,
             0,
             0,
@@ -151,7 +128,7 @@
             0,
             0,
             0,
-            198,
+            199,
             0,
             4,
             0,
@@ -160,8 +137,31 @@
             0,
             0,
             0
-         ],
-         "name" : "Blog"
+         ]
       }
-   ]
+   ],
+   "title" : {
+      "text" : "The Weekly Challenge [2019 - 2022]"
+   },
+   "tooltip" : {
+      "pointFormat" : "<span style=\"color:{series.color}\">{series.name}</span>: <b>{point.y}</b><br/>",
+      "shared" : 1
+   },
+   "subtitle" : {
+      "text" : "[Champions: 30] Last updated at 2023-01-16 05:55:45 GMT"
+   },
+   "yAxis" : {
+      "min" : 0,
+      "title" : {
+         "text" : ""
+      }
+   },
+   "plotOptions" : {
+      "column" : {
+         "stacking" : "percent"
+      }
+   },
+   "chart" : {
+      "type" : "column"
+   }
 }
